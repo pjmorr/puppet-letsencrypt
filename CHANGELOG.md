@@ -4,11 +4,37 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v2.2.0](https://github.com/voxpupuli/puppet-letsencrypt/tree/v2.2.0) (2017-11-21)
+[Full Changelog](https://github.com/voxpupuli/puppet-letsencrypt/compare/v2.1.0...v2.2.0)
+
+**Merged pull requests:**
+
+- Update vcsrepo requirement \(smaller 3\) [\#107](https://github.com/voxpupuli/puppet-letsencrypt/pull/107) ([kallies](https://github.com/kallies))
+- Remove EOL operatingsystems [\#106](https://github.com/voxpupuli/puppet-letsencrypt/pull/106) ([ekohl](https://github.com/ekohl))
+
+## [v2.1.0](https://github.com/voxpupuli/puppet-letsencrypt/tree/v2.1.0) (2017-11-13)
+[Full Changelog](https://github.com/voxpupuli/puppet-letsencrypt/compare/v2.0.1...v2.1.0)
+
+**Implemented enhancements:**
+
+- Added custom\_plugin param in certonly to disable use of '-a' flag. [\#84](https://github.com/voxpupuli/puppet-letsencrypt/pull/84) ([Lavaburn](https://github.com/Lavaburn))
+
+**Closed issues:**
+
+- Puppet support in readme and metadata.json conflicts [\#102](https://github.com/voxpupuli/puppet-letsencrypt/issues/102)
+- Could not find declared class ::letsencrypt [\#101](https://github.com/voxpupuli/puppet-letsencrypt/issues/101)
+- Please issue a new release [\#54](https://github.com/voxpupuli/puppet-letsencrypt/issues/54)
+
+**Merged pull requests:**
+
+- release 2.1.0 [\#104](https://github.com/voxpupuli/puppet-letsencrypt/pull/104) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [v2.0.1](https://github.com/voxpupuli/puppet-letsencrypt/tree/v2.0.1) (2017-09-17)
 [Full Changelog](https://github.com/voxpupuli/puppet-letsencrypt/compare/v2.0.0...v2.0.1)
 
 **Merged pull requests:**
 
+- release 2.0.1 [\#100](https://github.com/voxpupuli/puppet-letsencrypt/pull/100) ([bastelfreak](https://github.com/bastelfreak))
 - fixed randomness if the domain is almost same [\#96](https://github.com/voxpupuli/puppet-letsencrypt/pull/96) ([ashish1099](https://github.com/ashish1099))
 
 ## [v2.0.0](https://github.com/voxpupuli/puppet-letsencrypt/tree/v2.0.0) (2017-06-22)
